@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T01:00:15.105Z",
+  "title": "The Hashtag Zeitgeist · one chronological attention timeline",
+  "sources": [
+    {
+      "id": "story-bluesky",
+      "name": "Storywrangler · English Bluesky sample",
+      "url": "https://storywrangler.uvm.edu/api-reference/storywrangler/get-storywrangler-term-series",
+      "attribution": "Computational Story Lab, University of Vermont. Alshaabi et al., Storywrangler, Science Advances (2021), doi:10.1126/sciadv.abe6534. Public aggregate API export.",
+      "reuse": "Publisher provides downloadable aggregate time series. Attribution retained; no individual posts or user records. No blanket underlying-platform content license asserted."
+    },
+    {
+      "id": "story-twitter",
+      "name": "Storywrangler · historical Twitter sample",
+      "url": "https://storywrangling.org/about",
+      "attribution": "Computational Story Lab, University of Vermont. Alshaabi et al., Storywrangler, Science Advances (2021), doi:10.1126/sciadv.abe6534. Public aggregate API export.",
+      "reuse": "Publisher provides downloadable aggregate time series. Attribution retained; no individual posts or user records. No blanket underlying-platform content license asserted."
+    },
+    {
+      "id": "mastodon-social",
+      "name": "mastodon.social · public trending-tag history",
+      "url": "https://mastodon.social/api/v1/trends/tags?limit=20",
+      "attribution": "mastodon.social public trends API; Mastodon API documentation https://docs.joinmastodon.org/methods/trends/",
+      "reuse": "Public API factual aggregate observations; no blanket license asserted for user content."
+    },
+    {
+      "id": "mastodon-social-daily",
+      "name": "Mastodon · daily mastodon.social trending sample",
+      "url": "https://mastodon.social/api/v1/trends/tags?limit=20",
+      "attribution": "mastodon.social public trends API. https://docs.joinmastodon.org/methods/trends/ and https://docs.joinmastodon.org/entities/Tag/",
+      "reuse": "Public aggregate hashtag counts only; no posts or account records. No blanket license to underlying platform content asserted."
+    }
+  ],
+  "methodology": [
+    "Each dated frame contains up to ten strongest hashtags in the available candidate vocabulary. This is not an exhaustive or official worldwide trending ranking.",
+    "Broad historical Twitter aggregate series take priority, followed by Bluesky, national trend-list evidence, the COVID research sample, then the captured Mastodon history. One evidence family is used per day; values from different platforms are never added.",
+    "Repeated national trend observations are deduplicated by hashtag and day using their maximum displayed volume, not summed. Share is normalized within all available candidates in the chosen family for that day.",
+    "The aggregate API vocabulary combines historical seed hashtags and any acquired discovery candidates. It is incomplete and selection-biased. Source frequency, original count, evidence reference and first-seen date are retained.",
+    "Visual interpolation bridges adjacent observations up to 14 days apart. Larger breaks crossfade between available dates without inventing dated measurements. Off-screen or unlisted tags fade visually; that is not an observed zero.",
+    "Age is first seen in this captured evidence, not the invention date. Radius is scaled relative to the oldest signal currently displayed. Momentum resets when evidence families change or long gaps occur.",
+    "Daily updates append completed UTC days from the mastodon.social public trending-tag sample. Shares use all returned candidates for that day, not global activity. Historical frames are immutable. Today is excluded; missing observations are not zeros. Source changes reset momentum."
+  ],
+  "coverage": {
+    "start": "2008-09-09",
+    "end": "2026-10-30",
+    "observedDays": 6053,
+    "candidateTags": 343,
+    "limitations": [
+      "No complete continuous global archive from hashtag inception in 2007 is available in this build.",
+      "Coverage gaps and vocabulary selection remain; full raw evidence is retained locally for audit."
+    ]
+  }
+}

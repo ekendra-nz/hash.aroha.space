@@ -1,0 +1,62 @@
+[
+  {
+    "hashtag": "#ExampleFox",
+    "date": "2024-01-01",
+    "value": 120,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  },
+  {
+    "hashtag": "#ExampleFox",
+    "date": "2024-02-01",
+    "value": 3200,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  },
+  {
+    "hashtag": "#ExampleFox",
+    "date": "2024-03-01",
+    "value": 900,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  },
+  {
+    "hashtag": "#ExampleOwl",
+    "date": "2024-01-01",
+    "value": 4500,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  },
+  {
+    "hashtag": "#ExampleOwl",
+    "date": "2024-02-01",
+    "value": 3000,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  },
+  {
+    "hashtag": "#ExampleOwl",
+    "date": "2024-03-01",
+    "value": 1000,
+    "source": "Import example",
+    "platform": "Fictional network",
+    "granularity": "month",
+    "measurement": "count",
+    "status": "simulated"
+  }
+]

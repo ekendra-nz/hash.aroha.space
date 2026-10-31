@@ -1,0 +1,17 @@
+export const visual = {
+  maxVisible: 42,
+  ageRadius: 16,
+  ageYears: 7,
+  birthDays: 100,
+  fadeShare: 0.0015,
+  shareScale: 6,
+  minScale: 0.25,
+  popularityScale: 1.25,
+  momentumHeight: 5,
+  settleRate: 5,
+  contours: 6,
+  baselineBrightness: 0.45,
+  risingBrightness: 1.4,
+  fallingBrightness: 0.3,
+  peakBaseline: 1.2,
+};

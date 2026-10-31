@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "title": "The Hashtag Zeitgeist · canonical evidence archive",
+  "compiledAt": "2026-10-27T22:29:48.952Z",
+  "sources": [
+    {
+      "id": "soncco-tweetdeck",
+      "name": "Braulio Andrés Soncco Pimentel · TweetDeck trends",
+      "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021",
+      "attribution": "Braulio Andrés Soncco Pimentel (2026), Historical Twitter Trends Across 11 Spanish-Speaking Locations (2020–2021), version 1.0.0.",
+      "license": "ODC-By-1.0 (database compilation; platform content remains third-party)",
+      "retrievedAt": "2026-10-27T22:20:38.310Z",
+      "files": [
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/AR/trends-2020.parquet",
+          "sha256": "844783ab7046fc6af909622aa202a957a4484eefd129faee4e852dd44d202f23"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/AR/trends-2021.parquet",
+          "sha256": "b98b9f0cb6e16352aa8ab667d79bcf5a53718950b12a15e1ea50bd363a166e59"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/CL/trends-2020.parquet",
+          "sha256": "0686ab8b4007ae3ea256d3d3cb1e14f19e4cc46bc08118d9c2a13b96ded42416"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/CL/trends-2021.parquet",
+          "sha256": "5ba18d176ad52421210899a0637ec12f1d6be6f2b63a438a77f7605ebcd338d4"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/CO/trends-2020.parquet",
+          "sha256": "e5d256614c07d1ac5468cd771b74657330e4b99e7de41428c968bd68d68dd601"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/CO/trends-2021.parquet",
+          "sha256": "dd5a67110c9290788e14c80ef400a6039674a40e31cd3b7f6f47575d440a0e74"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/EC/trends-2020.parquet",
+          "sha256": "bc9f8a98b188b21f1bc14d4f370a136f92dcce99dbf39f2404cc1ef98e0fd06d"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/EC/trends-2021.parquet",
+          "sha256": "2308f53b6cc2f0d1cdf3b05ad4379c4f3efc1a4d30f462101d704b7affd54f90"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/ES/trends-2020.parquet",
+          "sha256": "08c6468766664600700a0a02dd40aabd2fdd63f3484b31189cdf9ddb2bdb6046"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/ES/trends-2021.parquet",
+          "sha256": "81f1e4fc87ab1f9008c3c307891819e0a8c78ba3b1e75a5d2e3cccad4ff537db"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/GT/trends-2020.parquet",
+          "sha256": "a1df56e6a4737a2a37a6aa3bb3b426d68224deadc0f5e264a57360e42e3c2d7a"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/GT/trends-2021.parquet",
+          "sha256": "b998e04d6c1cac576dcbe0069e8d8c7ca0f0d09b8f02731c3e7022b02c246d0c"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/MX/trends-2020.parquet",
+          "sha256": "fe4cd697172bb9668972b60911715985534a09bb9f18e257d59d485f1fca99bb"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/MX/trends-2021.parquet",
+          "sha256": "3881ae987895559e600275448fdf50007c5f1d3a7f0867138585f79ae1deb3aa"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PA/trends-2020.parquet",
+          "sha256": "eda4ee04961c1bfe491baa5cddf920c4d16473b9cbabfe399754ee4d91fefeb5"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PA/trends-2021.parquet",
+          "sha256": "0d01c4f693b8a698dd091b776b5027faa94b62ff5449f974b5bc2db81c3bf21c"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PE/trends-2020.parquet",
+          "sha256": "69a565a61e9d8e5d943cf0a8b2df238bb42b93621b332c318197d9cc6dc6a1bb"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PE/trends-2021.parquet",
+          "sha256": "600e185dd339b4944f02f4377c7e6bd2344278e771caa0faf2a83f7bbd350b8a"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PR/trends-2020.parquet",
+          "sha256": "471a9a78c88820fc30c999d58a5c35ffcf25d5ffb14922e7d2b7123c549a8470"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/PR/trends-2021.parquet",
+          "sha256": "f7fbbf3c4306884eeb704f450f66b99bc77c92a44c0b31f1c8ba825da0348ed6"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/VE/trends-2020.parquet",
+          "sha256": "aacb2185d7b2852897d896093fc0657e156cd8c9246ddbd8fcb46ff2d69873e5"
+        },
+        {
+          "url": "https://huggingface.co/datasets/soncco/historical-twitter-trends-spanish-locations-2020-2021/resolve/63a45c4eca5d7f8414d5a22e7ee463c2f50ef4b1/data/VE/trends-2021.parquet",
+          "sha256": "219c6deea9e3786048b2a6e56e8b225fde001e65ebaf10e5e4d27520db4183b3"
+        }
+      ],
+      "limitations": [
+        "UI-displayed approximate volumes, not independently counted posts.",
+        "UTC reconstructed using collector fixed offsets; daylight-saving limitations.",
+        "Country denotes trend-list location, not tweet origin or language.",
+        "Daily peak per hashtag is derived from repeated snapshots; peak times differ.",
+        "Unlisted hashtags are unknown, not verified zero."
+      ]
+    },
+    {
+      "id": "mastodon-social",
+      "name": "mastodon.social · public trending-tag history",
+      "url": "https://mastodon.social/api/v1/trends/tags?limit=20",
+      "attribution": "mastodon.social public trends API; Mastodon API documentation https://docs.joinmastodon.org/methods/trends/",
+      "license": "Public API factual aggregate observations; no blanket license asserted for user content.",
+      "retrievedAt": "2026-10-27T22:22:53.601857Z",
+      "files": [
+        {
+          "url": "https://mastodon.social/api/v1/trends/tags?limit=20",
+          "sha256": "5d09db3538256fb27a4008121274dd73015afb7e86a4278e65eda0731edcf03a"
+        }
+      ],
+      "limitations": [
+        "One server’s visible history, not the whole fediverse.",
+        "Only tags returned by the captured trends endpoint; selection bias.",
+        "Recent daily history; latest day may be partial.",
+        "No historical trend rank inferred from current response order."
+      ]
+    },
+    {
+      "id": "panacea-covid",
+      "name": "Panacea Lab · COVID-19 Twitter research collection",
+      "url": "https://zenodo.org/records/7793560",
+      "attribution": "Banda et al., A large-scale COVID-19 Twitter chatter dataset for open scientific research — an international collaboration. Epidemiologia 2021, 2(3), 315–324. doi:10.3390/epidemiologia2030024. Zenodo v160.",
+      "license": "Zenodo release metadata: other-pd (Other / Public Domain); use factual aggregate files only, no tweets or user profiles.",
+      "retrievedAt": "2026-10-27T22:28:35.409926Z",
+      "files": [
+        {
+          "url": "https://zenodo.org/api/records/7793560/files/hashtags.zip/content",
+          "sha256": "b7cb846aebb2ecf7f0a8292cfb068bf47fd9d67f543a6431b320a9b6004017c4"
+        }
+      ],
+      "limitations": [
+        "COVID-keyword research sample, not general Twitter trends or a platform census.",
+        "Top 100 valid canonical hashtags per daily file retained; absence is not zero.",
+        "Day from publisher filename; no subdaily observation time is asserted.",
+        "Early collection is selective and coverage has gaps.",
+        "Case/Unicode collisions retain the maximum, never sum potentially overlapping counts."
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "id": "twitter-AR",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Argentina · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "AR",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-CL",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Chile · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "CL",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-CO",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Colombia · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "CO",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-EC",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Ecuador · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "EC",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-ES",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Spain · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "ES",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-GT",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Guatemala · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "GT",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-MX",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Mexico · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "MX",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-PA",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Panama · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "PA",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-PE",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Peru · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "PE",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-PR",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Puerto Rico · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "PR",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "twitter-VE",
+      "sourceId": "soncco-tweetdeck",
+      "label": "Twitter · Venezuela · 2020–21",
+      "platform": "Twitter / TweetDeck",
+      "region": "VE",
+      "metric": "daily-peak-displayed-volume",
+      "coverageStart": "2020-07-15T00:00:00.000Z",
+      "coverageEnd": "2021-09-23T00:00:00.000Z",
+      "observedDays": 400,
+      "missingDays": 35,
+      "sampling": "Every valid hashtag; maximum displayed volume in each UTC day. Original winning timestamp and record ID retained. No cross-country summation."
+    },
+    {
+      "id": "mastodon-social",
+      "sourceId": "mastodon-social",
+      "label": "Mastodon · mastodon.social · recent capture",
+      "platform": "Mastodon",
+      "region": "mastodon.social",
+      "metric": "daily-hashtag-uses",
+      "coverageStart": "2026-10-21T00:00:00.000Z",
+      "coverageEnd": "2026-10-28T00:00:00.000Z",
+      "observedDays": 7,
+      "missingDays": 0,
+      "sampling": "Daily uses for tags returned by one trends API capture. Not a full historical trending list."
+    },
+    {
+      "id": "panacea-covid",
+      "sourceId": "panacea-covid",
+      "label": "Twitter · COVID research sample · 2020–23",
+      "platform": "Twitter research sample",
+      "region": "Multilingual COVID-keyword collection",
+      "metric": "daily-hashtag-uses",
+      "coverageStart": "2020-01-08T00:00:00.000Z",
+      "coverageEnd": "2023-04-02T00:00:00.000Z",
+      "observedDays": 1172,
+      "missingDays": 8,
+      "sampling": "Top 100 canonical hashtags per publisher daily aggregate file. Date resolution only; UTC calendar bins are display intervals, not known snapshot times."
+    }
+  ],
+  "policy": {
+    "deduplication": "Deduplicate source record IDs. Normalize hashtag Unicode NFC and case only. Group by source context + UTC day + canonical hashtag. Keep highest displayed volume, never sum overlapping snapshots. Separate incompatible contexts.",
+    "missing": "No record means unknown. Subsets and daily maxima are explicitly described per context. Never fabricate zeroes, birthdays, ranks, or fill uncovered dates.",
+    "time": "UTC ISO-8601 intervals sorted by periodStart; original observation time retained where provided. Daily aggregates never masquerade as exact midnight sightings.",
+    "scope": "Single canonical file, multiple separately selectable measurement contexts. No blending of platforms, countries or incompatible metrics."
+  },
+  "stats": {
+    "inputRows": 37261702,
+    "hashtagRows": 1444868,
+    "outputRows": 245499,
+    "duplicates": 0,
+    "conflicts": 0
+  }
+}

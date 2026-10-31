@@ -1,0 +1,41 @@
+{
+  "name": "hashtag-zeitgeist",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest run",
+    "data:fetch": "node scripts/acquire-soncco.ts && node scripts/acquire-additional.ts && node scripts/acquire-long-history.ts && node scripts/acquire-bluesky-history.ts && node scripts/discover-hashtags.ts",
+    "data:build": "node scripts/compile-timeline.ts",
+    "data:evidence": "node scripts/compile-history.ts",
+    "data:update": "node scripts/update-daily.ts"
+  },
+  "dependencies": {
+    "@sveltejs/kit": "latest",
+    "@threlte/core": "latest",
+    "@threlte/extras": "latest",
+    "svelte": "latest",
+    "three": "latest"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "latest",
+    "@sveltejs/vite-plugin-svelte": "latest",
+    "@tailwindcss/vite": "latest",
+    "@types/node": "^26.6.5",
+    "@types/three": "latest",
+    "fflate": "^0.8.3",
+    "hyparquet": "^1.31.5",
+    "hyparquet-compressors": "^1.1.2",
+    "prettier": "^3.9.10",
+    "prettier-plugin-svelte": "^4.1.1",
+    "svelte-check": "latest",
+    "tailwindcss": "latest",
+    "typescript": "^6.0.3",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}

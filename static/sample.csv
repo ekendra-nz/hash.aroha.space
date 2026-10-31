@@ -1,0 +1,7 @@
+hashtag,date,value,source,platform,granularity,measurement,status
+#ExampleFox,2024-01-01,120,Import example,Fictional network,month,count,simulated
+#ExampleFox,2024-02-01,3200,Import example,Fictional network,month,count,simulated
+#ExampleFox,2024-03-01,900,Import example,Fictional network,month,count,simulated
+#ExampleOwl,2024-01-01,4500,Import example,Fictional network,month,count,simulated
+#ExampleOwl,2024-02-01,3000,Import example,Fictional network,month,count,simulated
+#ExampleOwl,2024-03-01,1000,Import example,Fictional network,month,count,simulated

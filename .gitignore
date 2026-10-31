@@ -1,0 +1,11 @@
+node_modules
+.svelte-kit
+build
+.DS_Store
+data/raw/
+.env
+.env.local
+.env.*.local
+data/live/update.lock
+data/live/*.tmp
+data/live/historical-baseline.json

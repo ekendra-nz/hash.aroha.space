@@ -1,0 +1,37 @@
+name: Update hashtag history
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: update-hashtag-history
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Preserve starting archive for verification
+        run: cp static/data/history.json "$RUNNER_TEMP/history-before.json"
+      - name: Collect completed days
+        run: node scripts/update-daily.ts
+      - name: Verify history and checksum
+        env:
+          BEFORE_PATH: ${{ runner.temp }}/history-before.json
+        run: node scripts/verify-daily.ts
+      - name: Commit updated archive and provenance
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add static/data/history.json static/data/history.sha256 data/timeline-summary.json data/live/frames.json data/live/status.json data/live/captures/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'data: refresh daily hashtag observations [skip ci]'
+          git push origin "HEAD:${{ github.event.repository.default_branch }}"
