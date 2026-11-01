@@ -22,7 +22,9 @@ const content = JSON.stringify({
 });
 const checksum = createHash('sha256').update(content).digest('hex');
 it('uses a configured public repository and rejects credentials or other hosts', () => {
-  expect(historyURL('')).toBe('/data/history.json');
+  expect(historyURL('')).toBe(
+    'https://raw.githubusercontent.com/ekendra-nz/hash.aroha.space/main/static/data/history.json',
+  );
   expect(
     historyURL(
       'https://raw.githubusercontent.com/me/site/main/static/data/history.json',

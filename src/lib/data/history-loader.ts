@@ -1,7 +1,8 @@
 import { validateZeitgeist, type ZeitgeistHistory } from './zeitgeist';
+export const publicHistoryURL =
+  'https://raw.githubusercontent.com/ekendra-nz/hash.aroha.space/main/static/data/history.json';
 export function historyURL(configured: string | undefined) {
-  if (!configured?.trim()) return '/data/history.json';
-  const url = new URL(configured.trim());
+  const url = new URL(configured?.trim() || publicHistoryURL);
   if (
     url.protocol !== 'https:' ||
     url.hostname !== 'raw.githubusercontent.com' ||
