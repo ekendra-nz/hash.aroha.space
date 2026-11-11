@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-10T08:27:22.457Z",
+  "generatedAt": "2026-11-11T07:46:08.862Z",
   "title": "The Hashtag Zeitgeist · one chronological attention timeline",
   "sources": [
     {
@@ -43,9 +43,9 @@
   ],
   "coverage": {
     "start": "2008-09-09",
-    "end": "2026-11-09",
-    "observedDays": 6063,
-    "candidateTags": 410,
+    "end": "2026-11-10",
+    "observedDays": 6064,
+    "candidateTags": 416,
     "limitations": [
       "No complete continuous global archive from hashtag inception in 2007 is available in this build.",
       "Coverage gaps and vocabulary selection remain; full raw evidence is retained locally for audit."
