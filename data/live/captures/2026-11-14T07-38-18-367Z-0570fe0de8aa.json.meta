@@ -1,0 +1,6 @@
+{
+  "url": "https://mastodon.social/api/v1/trends/tags?limit=20",
+  "retrievedAt": "2026-11-14T07:38:18.367Z",
+  "sha256": "0570fe0de8aa2beda1f1f2a8508b9a221810e58fe006a9707589f3d25f881fac",
+  "path": "data/live/captures/2026-11-14T07-38-18-367Z-0570fe0de8aa.json"
+}
