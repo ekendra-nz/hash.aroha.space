@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-11-27T09:42:16.935Z",
+  "checkedAt": "2026-11-28T08:55:54.247Z",
   "source": "https://mastodon.social/api/v1/trends/tags?limit=20",
   "appendedDays": [
-    "2026-11-26"
+    "2026-11-27"
   ],
-  "end": "2026-11-26",
-  "expectedThrough": "2026-11-26",
+  "end": "2026-11-27",
+  "expectedThrough": "2026-11-27",
   "stale": false,
   "changed": true,
-  "capture": "data/live/captures/2026-11-27T09-42-16-935Z-e9489a546652.json"
+  "capture": "data/live/captures/2026-11-28T08-55-54-247Z-916c5ff730ec.json"
 }
